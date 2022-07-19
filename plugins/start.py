@@ -16,7 +16,7 @@ async def start(client,message):
 ➠ 𝘔𝘢𝘪𝘯𝘵𝘢𝘪𝘯𝘦𝘥 𝘉𝘺 : @ERROR_404_V1
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("⚠️ Support" ,url="https://t.me/Report_ToAdminbot") ]  ]))
+	 [[ InlineKeyboardButton("⚠️ Support" ,url="https://t.me/DarkRubix") ]  ]))
 
 
 @Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
