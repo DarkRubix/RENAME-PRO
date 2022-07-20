@@ -11,6 +11,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text = f"<b> • OWNER : <code>@ninja_00p</code>\n○ • Channel : @DarkRubix \n○ • Group : @DarkRubix_org </b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
+
+         [[ InlineKeyboardButton("Movies Channel" ,url="https://t.me/MoviesSearchBox") ]  ]))
+
                 [
                     [
                         InlineKeyboardButton("🔒 Close", callback_data = "close")
